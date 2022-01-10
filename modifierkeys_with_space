@@ -1,5 +1,5 @@
 {
-  "title": "Key settings for varmilo keyboard.",
+  "title": "Change Modifier Keys with Space.",
   "rules": [
       {
           "description": "Change Fn-U to PageUp, Fn-O to PageDown",
@@ -106,15 +106,15 @@
           ]
       },
       {
-          "description": "Cursor moving: Change Fn-F to Alt-RightArrow, Fn-B to Alt-LeftArrow",
+          "description": "Cursor moving: Change Fn-F to Alt-RightArrow, Fn-B to Alt-LeftArrow Change Left Shift + Space to Left Shift + Left Ctrl + Left Option + Space",
           "manipulators": [
               {
                   "type": "basic",
 
                   "from": {
-                    "key_code": "f",
+                    "key_code": "space",
                     "modifiers": {
-                      "mandatory": ["fn"],
+                      "mandatory": ["left_shift"],
                       "optional": [
                         "caps_lock",
                         "option",
@@ -127,9 +127,10 @@
 
                   "to": [
                     {
-                      "key_code": "right_arrow",
+                      "key_code": "space",
                       "modifiers": [
-                        "option"
+                        "left_option",
+                        "left_ctrl"
                       ]
                     }
                   ]

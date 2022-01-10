@@ -1,0 +1,26 @@
+{
+   "description": "Change Fn-HJKL to Arrow left,down,up,right",
+   "manipulators": [
+     {
+       "type": "basic",
+       "from": {
+         "key_code": "h",            // 基础键
+         "modifiers": {
+           "mandatory": ["fn"],      // 组合键
+           "optional": [
+             "caps_lock",
+             "option",
+             "command",
+             "shift",
+             "control"
+           ]
+         }
+       },
+       "to": [
+         {
+           "key_code": "left_arrow"
+         }
+       ]
+     },
+   ]
+}

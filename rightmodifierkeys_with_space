@@ -4,9 +4,9 @@
      {
        "type": "basic",
        "from": {
-         "key_code": "h",            // 基础键
+         "key_code": "h",
          "modifiers": {
-           "mandatory": ["fn"],      // 组合键
+           "mandatory": ["fn"],
            "optional": [
              "caps_lock",
              "option",

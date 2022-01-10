@@ -1,5 +1,5 @@
 {
-  "title": "Change Modifier Keys with Space.",
+  "title": "Change Modifier Keys + Space.",
   "rules": [
       {
           "description": "Change Fn-U to PageUp, Fn-O to PageDown",

@@ -112,9 +112,9 @@
                   "type": "basic",
 
                   "from": {
-                    "key_code": "space",
+                    "key_code": "spacebar",
                     "modifiers": {
-                      "mandatory": ["left_shift"],
+                      "mandatory": ["tab"],
                       "optional": [
                         "caps_lock",
                         "option",
@@ -127,7 +127,7 @@
 
                   "to": [
                     {
-                      "key_code": "space",
+                      "key_code": "spacebar",
                       "modifiers": [
                         "left_option",
                         "left_ctrl"

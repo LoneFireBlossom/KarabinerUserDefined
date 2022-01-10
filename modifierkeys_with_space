@@ -116,11 +116,7 @@
                     "modifiers": {
                       "mandatory": ["tab"],
                       "optional": [
-                        "caps_lock",
-                        "option",
-                        "command",
-                        "shift",
-                        "control"
+                        "any"
                       ]
                     }
                   },
@@ -129,8 +125,7 @@
                     {
                       "key_code": "spacebar",
                       "modifiers": [
-                        "left_option",
-                        "left_ctrl"
+                        "left_command"
                       ]
                     }
                   ]

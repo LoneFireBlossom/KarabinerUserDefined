@@ -106,7 +106,7 @@
           ]
       },
       {
-          "description": "Cursor moving: Change Fn-F to Alt-RightArrow, Fn-B to Alt-LeftArrow Change Left Shift + Space to Left Shift + Left Ctrl + Left Option + Space",
+          "description": "Change Left Shift + Space to F19",
           "manipulators": [
               {
                   "type": "basic",
@@ -123,11 +123,7 @@
 
                   "to": [
                     {
-                      "key_code": "spacebar",
-                      "modifiers": [
-                        "left_command",
-                        "left_option"
-                      ]
+                      "key_code": "f19",
                     }
                   ]
               },

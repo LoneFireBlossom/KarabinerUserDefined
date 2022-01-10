@@ -1,5 +1,5 @@
 {
-  "title": "Tapping modifier-keys produces a f-key.",
+  "title": "Tapping modifier-keys produces a f-key for LoneFireBlossom.",
   "rules": [
     {
       "description": "Press left_shift alone produces F12",

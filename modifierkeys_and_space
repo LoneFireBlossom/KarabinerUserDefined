@@ -123,7 +123,7 @@
 
                   "to": [
                     {
-                      "key_code": "f19",
+                      "key_code": "caps_lock",
                     }
                   ]
               },

@@ -1,112 +1,31 @@
 {
-  "title": "Change Modifier Keys + Space.",
+  "title": "Change Modifier Keys with Space.",
   "rules": [
       {
-          "description": "Change Fn-U to PageUp, Fn-O to PageDown",
+          "description": "Change LeftOption + Spacebar to F19",
           "manipulators": [
               {
                   "type": "basic",
 
                   "from": {
-                    "key_code": "u",
+                    "key_code": "spacebar",
                     "modifiers": {
-                      "mandatory": ["fn"],
+                      "mandatory": ["left_option"],
                       "optional": [
-                        "caps_lock",
-                        "option",
-                        "command",
-                        "shift",
-                        "control"
                       ]
                     }
                   },
 
                   "to": [
                       {
-                        "key_code": "page_up"
+                        "key_code": "f19"
                       }
-                  ]
-              },
-            {
-                  "type": "basic",
-
-                  "from": {
-                    "key_code": "o",
-                    "modifiers": {
-                      "mandatory": ["fn"],
-                      "optional": [
-                        "caps_lock",
-                        "option",
-                        "command",
-                        "shift",
-                        "control"
-                      ]
-                    }
-                  },
-
-                  "to": [
-                      {
-                        "key_code": "page_down"
-                      }
-                  ]
-            }
-          ]
-      },
-      {
-          "description": "Change Fn-M to Home, Fn-. to End",
-          "manipulators": [
-              {
-                  "type": "basic",
-
-                  "from": {
-                    "key_code": "m",
-                    "modifiers": {
-                      "mandatory": ["fn"],
-                      "optional": [
-                        "caps_lock",
-                        "option",
-                        "command",
-                        "shift",
-                        "control"
-                      ]
-                    }
-                  },
-
-                  "to": [
-                      {
-                        "key_code": "a",
-                        "modifiers": ["control"]
-                      }
-                    ]
-              },
-              {
-                  "type": "basic",
-
-                  "from": {
-                    "key_code": "period",
-                    "modifiers": {
-                      "mandatory": ["fn"],
-                      "optional": [
-                        "caps_lock",
-                        "option",
-                        "command",
-                        "shift",
-                        "control"
-                      ]
-                    }
-                  },
-
-                  "to": [
-                    {
-                      "key_code": "e",
-                      "modifiers": ["control"]
-                    }
                   ]
               }
           ]
       },
       {
-          "description": "Change Left Shift + Space to F19",
+          "description": "Change LeftShift + Spacebar to F3",
           "manipulators": [
               {
                   "type": "basic",
@@ -116,14 +35,44 @@
                     "modifiers": {
                       "mandatory": ["left_shift"],
                       "optional": [
-                        "any"
                       ]
                     }
                   },
 
                   "to": [
                     {
-                      "key_code": "caps_lock",
+                      "key_code": "f3"
+                    }
+                  ]
+              }
+          ]
+      },
+      {
+          "description": "这都是照抄别人的，从这往下的我用不到，就放这儿了Cursor moving: Change Fn-F to Alt-RightArrow, Fn-B to Alt-LeftArrow",
+          "manipulators": [
+              {
+                  "type": "basic",
+
+                  "from": {
+                    "key_code": "f",
+                    "modifiers": {
+                      "mandatory": ["fn"],
+                      "optional": [
+                        "caps_lock",
+                        "option",
+                        "command",
+                        "shift",
+                        "control"
+                      ]
+                    }
+                  },
+
+                  "to": [
+                    {
+                      "key_code": "right_arrow",
+                      "modifiers": [
+                        "option"
+                      ]
                     }
                   ]
               },
